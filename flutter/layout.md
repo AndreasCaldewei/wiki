@@ -45,7 +45,7 @@ body: Container(
 );
 ```
 ##### [FlexLayout](./layout_flex.md)
-##### Stack
+##### [Stack](./layout_stack.md)
 
 
 #### Best Practices
