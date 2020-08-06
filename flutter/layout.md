@@ -1,6 +1,6 @@
-###Positioning
-####Basics
-#####Center
+### Positioning
+#### Basics
+##### Center
 ```dart
 body: Center(
     child: Icon(
@@ -8,7 +8,7 @@ body: Center(
     )
 );
 ```
-#####Alignment
+##### Alignment
 ```dart
 body: Align(
     alignment: Alignment.topRight, // centerLeft, bottomLeft, ...
@@ -18,7 +18,7 @@ body: Align(
 );
 ```
 
-#####Padding
+##### Padding
 
 ```dart
 body: Padding(
@@ -28,8 +28,8 @@ body: Padding(
     )
 );
 ```
-####Advanced
-###Container
+#### Advanced
+### Container
 A Container can do Center, Alignment and Padding at once. It contains all the properties of these Widgets and more.
 
 ```dart
@@ -44,7 +44,7 @@ body: Container(
     )
 );
 ```
-####Best Practices
+#### Best Practices
 The body element of an Scaffold should be a Container. 
 ```dart
 Scaffold(
