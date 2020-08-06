@@ -44,6 +44,10 @@ body: Container(
     )
 );
 ```
+##### [FlexLayout](./layout/flex.md)
+##### Stack
+
+
 #### Best Practices
 The body element of a Scaffold should be a Container. 
 ```dart
