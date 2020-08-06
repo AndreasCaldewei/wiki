@@ -45,7 +45,7 @@ body: Container(
 );
 ```
 #### Best Practices
-The body element of an Scaffold should be a Container. 
+The body element of a Scaffold should be a Container. 
 ```dart
 Scaffold(
     body: Container(
