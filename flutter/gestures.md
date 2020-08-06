@@ -1,7 +1,7 @@
 ### Gestures 
 #### Basics 
 ##### GestureDetector
-
+Has multiple gesture events.
 ```dart
  child: GestureDetector(
    onTapDown: (details) => print(details.globalPosition.dx),
@@ -13,7 +13,7 @@
  ),
 ```
 ##### InkWell (Marterial only)
-
+Has multiple gesture events and a marteral wave animation.
 ```dart
  child: InkWell(
    onTapDown: (details) => print(details.globalPosition.dx),
