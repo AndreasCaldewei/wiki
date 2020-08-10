@@ -4,7 +4,7 @@
 Displays the children in absolute ways.
 ```dart 
 // Expands to the size of the parent.
- SizedBox.expand( 
+ SizedBox.expand(  
          child: Stack( 
            children: <Widget>[
              // Children can be placed directly inside the childrens array.
