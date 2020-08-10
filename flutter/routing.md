@@ -8,7 +8,8 @@ class MyApp extends StatelessWidget {
  @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/', // starting page
+      // starting page
+      initialRoute: '/', 
       routes: {
         // the üage route
         '/': (context) => Index() // These are normal widgets, organzie them in a sperate folder,
