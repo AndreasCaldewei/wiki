@@ -3,22 +3,26 @@
 ##### Stack
 Displays the children in absolute ways.
 ```dart 
- SizedBox.expand( // Expands to the size of the parent.
+// Expands to the size of the parent.
+ SizedBox.expand( 
          child: Stack( 
            children: <Widget>[
-             Icon( // Children can be placed directly inside the childrens array.
+             // Children can be placed directly inside the childrens array.
+             Icon( 
                Icons.camera,
                size: 100,
                color: Colors.red,
              ),
-             Align( // Allows to implicitly position a children.
+            // Allows to implicitly position a children.
+             Align( 
                  alignment: Alignment.center,
                  child: Icon(
                    Icons.camera,
                    size: 100,
                    color: Colors.blue,
                  )),
-             Positioned( // Positioned allows to position the children explicitly.
+            // Positioned allows to position the children explicitly.
+             Positioned( 
                  bottom: 20,
                  left: 100,
                  child: Icon(

@@ -34,11 +34,12 @@ class MyApp extends StatelessWidget {
    return MaterialApp(
      home: Scaffold(
        body: ListView.build(itemBuilder(context, idx) {
+            // Here you can add specific logic for rendering items.
             return Container {
                 color: Colors.blue,
                 margin: EdgeInsets.all(20),
                 height: 100,
-                child: Text('§idx') // Here you can add specific logic for rendering items.
+                child: Text('§idx') 
             }
         },
      ),
