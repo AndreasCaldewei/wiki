@@ -1,6 +1,7 @@
 ### Decoration
 #### Basics
 ##### BoxDecoration
+Can be used to for BoxShadows and Gradients.
 ```dart
 Container(
   alignment: Alignment.center,

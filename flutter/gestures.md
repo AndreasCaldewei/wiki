@@ -13,7 +13,7 @@ Has multiple gesture events.
  ),
 ```
 ##### InkWell (Marterial only)
-Has multiple gesture events and a marteral wave animation.
+Has multiple gesture events and a marterial wave animation.
 ```dart
  child: InkWell(
    onTapDown: (details) => print(details.globalPosition.dx),
